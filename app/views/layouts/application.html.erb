@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>JD - Personal Business Card</title>
-    <%= csrf_meta_tags %>
-    <meta name="description" content="Jay C Dave - Personal Business Card">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>JD - Personal Business Card</title>
+  <%= csrf_meta_tags %>
+  <meta name="description" content="Jay C Dave - Personal Business Card">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
-  <body>
-    <%= yield %>
-  </body>
+  <%= stylesheet_link_tag    'application' %>
+  <%= javascript_include_tag 'application' %>
+</head>
+
+<body>
+  <%= yield %>
+</body>
 </html>
